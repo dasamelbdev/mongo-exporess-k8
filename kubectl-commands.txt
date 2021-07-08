@@ -1,0 +1,8 @@
+==kubectl commands====
+1. create deployment- kubectl create deployment k8nginx --image=nginx
+2. edit deployment - kubectl edit deployment  k8nginx
+**pod name-kubectl logs k8-mongo-deployment-766ff54c8b-t9ktp
+3. getting logs of a pod - kubectl logs k8-mongo-deployment-766ff54c8b-t9ktp
+4. getting the container terminal -kubectl exec -it k8mongo-76fbc44c47-bmhzx -- bin/bash
+5. delete a deployment- kubectl delete deployment k8nginx
+6.
